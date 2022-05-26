@@ -1,12 +1,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace AdhocReading
 {
     [TestClass]
-    public class UnitTest1
+    public class FuncTest
     {
         [TestMethod]
         public void TestMethod1()
