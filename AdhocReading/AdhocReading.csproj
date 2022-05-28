@@ -14,4 +14,12 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PacktLibrary\PacktLibrary.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+		<Using Include="System" />
+		<Using Include="System.Linq" />
+	</ItemGroup>
 </Project>
