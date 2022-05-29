@@ -1,4 +1,6 @@
-﻿namespace AdhocReading
+﻿using System.Text.RegularExpressions;
+
+namespace AdhocReading
 {
     [TestClass]
     public class SpeakingCSharp
@@ -43,6 +45,18 @@
             Assert.AreEqual(1, FibFunctional(3));
             Assert.AreEqual(2, FibFunctional(4));
             Assert.AreEqual(3, FibFunctional(5));
+        }
+        [TestMethod]
+        public void RegTest()
+        {
+            Regex numChecker = new(@"^\d+$");
+
+            var num = "45";
+            Assert.IsTrue(numChecker.IsMatch(num));
+
+            var str = "hello";
+            Assert.IsFalse(numChecker.IsMatch(str));
+
         }
     }
 }
