@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdhocReading", "AdhocReading\AdhocReading.csproj", "{44BD14FE-C24A-4829-ACD8-9FC42733028C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{33A1592B-6827-47A8-9232-FBAF1CDB93C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
