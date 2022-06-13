@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacktLibrary", "PacktLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{33A1592B-6827-47A8-9232-FBAF1CDB93C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirst", "DatabaseFirst\DatabaseFirst.csproj", "{EF283AB3-5E3B-48CB-8553-83D0D7C0C15C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A1592B-6827-47A8-9232-FBAF1CDB93C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF283AB3-5E3B-48CB-8553-83D0D7C0C15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF283AB3-5E3B-48CB-8553-83D0D7C0C15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF283AB3-5E3B-48CB-8553-83D0D7C0C15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF283AB3-5E3B-48CB-8553-83D0D7C0C15C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

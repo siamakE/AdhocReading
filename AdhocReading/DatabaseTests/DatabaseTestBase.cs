@@ -16,8 +16,8 @@ namespace AdhocReading.Tests.DatabaseTests
     }
     public class DatabaseTestBase
     {
-        protected IServiceProvider ServiceProvider;
-        protected NorthwindContext NorthwindContext;
+        protected IServiceProvider? ServiceProvider;
+        protected NorthwindContext? NorthwindContext;
 
         protected readonly Dictionary<string, object[]> _testData = new()
         {
