@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdhocReading", "AdhocReading\AdhocReading.csproj", "{44BD14FE-C24A-4829-ACD8-9FC42733028C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdhocReading.Tests", "AdhocReading\AdhocReading.Tests.csproj", "{44BD14FE-C24A-4829-ACD8-9FC42733028C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{6C3B44C2-0D75-42E7-93B0-36BA88A87E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{33A1592B-6827-47A8-9232-FBAF1CDB93C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{33A1592B-6827-47A8-9232-FBAF1CDB93C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
